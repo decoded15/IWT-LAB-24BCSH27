@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <script language="JavaScript">
+            var a = 10, b = 2, c;
+            var choice = "*";
+            switch(choice){
+                case '+':
+                    c = a + b;
+                    break;
+                case '-':
+                    c = a - b;
+                    break;
+                case '*':
+                    c = a * b;
+                    break;
+                case '/':
+                    c = a / b;
+                    break; 
+                case '%':
+                    c = a % b;
+                    break;    
+                default:
+                    document.write("Wrong choice"); 
+            }
+            document.write("Calculated value : ", c);
+        </script>
+    </head>
+    <body bgcolor="pink" text="blue">
+    </body>
+</html>
