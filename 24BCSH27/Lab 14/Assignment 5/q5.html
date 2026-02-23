@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a = new Array(2,34,7,345,8);
+        var i, sum = 0;
+        var max = a[0];
+        var sec_max;
+        for (i = 0; i < 5; i++){
+            if (a[i] > max){
+                sec_max = max;
+                max = a[i];
+            }
+        }
+        document.write("<br>");
+        document.write("Second maximum value : " + sec_max);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
