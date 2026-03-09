@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .window{
+            align-items: center;
+            border: 1px solid;
+            padding: 10px;
+            border-radius: 10px;
+            align-self: center;
+            width: 20%;
+        }
+
+        #drop2{
+            width: 47%;
+        }
+
+        #drop1{
+            width: 47%;
+        }
+
+        #res{
+            width: 45%;
+        }
+
+        #value{
+            width: 45%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="window">
+            <center>
+                <h3>Currency Converter</h3>
+            </center>
+            From :
+            <br>
+            <select name="" id="drop1">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+                <option value="AUD">AUD</option>
+            </select>
+            <br>
+            <input type="number" name="" id="value">
+            <br>
+            To :
+            <br>
+            <select name="" id="drop2">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+                <option value="AUD">AUD</option>
+            </select>
+            <br>
+            <input type="number" name="" id="res">
+            <br>
+            <center>
+                <input type="button" value="Convert" style="width: 47%;">
+            </center>
+        </div>
+    </center>
+</body>
+</html>

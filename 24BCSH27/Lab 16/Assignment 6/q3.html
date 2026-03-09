@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>        
+            function red(){
+                let result = confirm("Do you want to change the color ? ")
+                if(result){
+                    document.getElementById("d1").style.backgroundColor = "red";
+                }
+            }
+            function blue(){
+                let result = confirm("Do you want to change the color ? ")
+                if(result){
+                    document.getElementById("d1").style.backgroundColor = "blue";
+                }
+            }
+            function green(){
+                let result = confirm("Do you want to change the color ? ")
+                if(result){
+                    document.getElementById("d1").style.backgroundColor = "green";
+                }
+            }
+    </script>
+</head>
+<body>
+    <div id = "d1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolorem numquam laboriosam quam dignissimos velit, quas quibusdam iure quod, dolor maxime ea blanditiis molestiae itaque sed impedit eveniet corporis reiciendis.
+    </div>
+    <input type="button" value="Red" onclick="red()">
+    <input type="button" value="Green" onclick="green()">
+    <input type="button" value="Blue" onclick="blue()">
+</body>
+</html>
